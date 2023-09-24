@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    margin: 0px 20px;
 }
 .header{
     background-color: royalblue;
@@ -44,11 +45,11 @@ body{
     border: 2px solid whitesmoke;
     padding: 20px;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.toDoName{
 
-}
 
 .deleteButton{
     border: none;
