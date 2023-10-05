@@ -2,7 +2,6 @@ import Header from "./components/Header"
 import Form from "./components/Form"
 import {useState} from 'react'
 import TodoList from "./components/TodoList"
-import Modal from "./components/Modal"
 
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
   const [todoList, setTodoList] = useState([])
   return (
     <div className="App">
-      <Modal/>
       <Header></Header>
       <Form 
         todo={todo} 
